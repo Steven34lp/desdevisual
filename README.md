@@ -1,4 +1,4 @@
-
+##### Pagina web desarrollada por Steven
 # Centro Medico Zambrano
 <p>
 En esta pagina contamos con cinco secciones desarrolladas para el contenido informativo para mostrar un local medico ubicado en Honduras, el cual yo desarrolle mediante codigo de estructura HTML, codigo de estilos CSS y codigo Javascript donde se puede observar que se integraron imagenes para el uso decoravito e informativo de la pagina.<br>
@@ -27,4 +27,4 @@ body{
 ```
 Puedes visualizar como va quedando la pagina web en este enlace [Aquí](https://verificacion-codigo-new.netlify.app "Aquí")
 
-Tambien hize uso de imagenes gratuitas en la pagina[Unsplash](http://https://unsplash.com/es/s/fotos/hospital "Unsplash").
+Tambien hize uso de imagenes gratuitas en la pagina [Unsplash](http://https://unsplash.com/es/s/fotos/hospital "Unsplash").
