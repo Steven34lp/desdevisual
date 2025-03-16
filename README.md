@@ -25,6 +25,6 @@ body{
 }
 
 ```
-Puedes visualizar como va quedando la pagina web en este enlace [Aquí](http://https://verificacion-codigo-new.netlify.app "Aquí")
+Puedes visualizar como va quedando la pagina web en este enlace [Aquí](https://verificacion-codigo-new.netlify.app "Aquí")
 
 Tambien hize uso de imagenes gratuitas en la pagina[Unsplash](http://https://unsplash.com/es/s/fotos/hospital "Unsplash").
