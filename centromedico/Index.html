@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+ <hmtl lang="es">
+    <head>
+        <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bayon&family=Bebas+Neue&display=swap');
+         </style>
+        <link rel="shortcut icon" href="icono2.ico" type="image/x-icon">
+        
+        <!-- FONT del titulo del encabezado -->
+        <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap" rel="stylesheet">
+        <!-- -------------------------------------- -->
+
+        <enlace href="https: //fonts.googleapis.com/css2? family= Inter:wght@600 & family= Libre+Baskerville:wght@700 & display=swap" rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Rowdies:wght@300;400;700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+        <!-- Buscar en google Fonts awesome cdn, Copiar y pegar aqui-->
+         <!-- iconos -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+        <!-- -------------------------------------- -->
+        <meta charset="utf-8"/>
+        <title>Farmacia Zambrano</title>
+        <meta name="description" content="Farmacia y Medicamentos"/>
+        <meta name="author" content="Steven"/>
+        <link rel="stylesheet" href="stylemain.css">
+
+    <style></style>
+    </head>
+    <body>
+
+        <div style="width: 100%; height: 74px; margin-bottom: 45px;">
+            <header style="width: 100%; height: 100%; display: flex; flex-flow: row-wrap; justify-content: space-between; background-color: rgb(34, 34, 212);">
+                <div style="width: 48%; height: 100%;">
+                    <nav id="barUp">
+                        <div style="width: 17%; display: flex; flex-flow: row nowrap; justify-content: center;"><img src="photo/icono2.ico" id="logo" alt="logo de la Clínica"></div>
+                        <div style="width: 83%;"><h1>Farmacia Zambrano</h1></div>
+                    </nav>
+                </div>
+                <div style="width: 35%; height: 100%; display: flex; flex-flow: row-wrap; justify-content: space-between;">
+                    <section class="uu"><a href="#"><blockquote>Inicio</blockquote></a></section>
+                    <section class="uu"><a href="photo/CRUCIGRAMA.pdf" download="CRUCIGRAMA.pdf"><blockquote>Hogar</blockquote></a></section>
+                    <section class="uu"><a href="#"><blockquote>Negocios</blockquote></a></section>
+                    <section class="uu"><a href="#"><blockquote>Automotor</blockquote></a></section>
+
+                </div>
+                <div style="width: 15%; height: 100%; display: flex; flex-flow: row nowrap; align-items: center;">
+                    <section style="display: flex; flex-flow: row nowrap; justify-content: space-between; align-items: center;">
+                        <img width="48" height="48" src="https://img.icons8.com/color/48/whatsapp--v1.png" alt="whatsapp--v1"/>
+                        <div style=" height: 72px; display: flex; flex-flow: column nowrap; justify-content: center;">
+                            <p style="margin: 0; color: white; font-family: Poppins, serif; text-align: center;">+504 32324856</p>
+                            <p class="live-urgencias" style="margin: 0; color: white; font-family: Poppins, serif; font-size: 11px; text-align: center; position: relative;">Urgencias 24 horas</p>
+                        </div>
+                    </section>
+                </div>
+            </header>
+        </div>
+
+        <div class="aviso-cookies activo" id="cookies-aviso">
+            <img class="galleta" width="100" height="100" src="https://img.icons8.com/plasticine/100/cookie.png" alt="cookie"/>
+            <h3 class="titulo-cookies">Cookies</h3>
+            <p class="parrafo-cookies">Utilizamos las cookies para obtener un mejor servicio de la pagina web</p>
+            <button class="boton-cookies" id="btn-aceptar-cookies">Acepto</button>
+            <a class="enlace-cookies" href="#">Aviso de las Cookies</a>
+        </div>
+        <div class="fondo-aviso-cookies activo" id="fondo-aviso-cookies"> <!-- contenerdor de Cookies --> </div>
+        
+
+        <!-- Banner  -->
+        <div id="banner1">
+                <main id="Forums">
+                    <article class="Elemento">
+                       <section style="width: 100%; height: 50px; padding: 0; margin-bottom: 12px; display: flex; flex-flow: row wrap; justify-content: center; align-content: center;">
+                          <h3>Productos con Receta</h3>
+                       </section>
+                       <section style="width: 100%; height: 213px; padding-top: 1rem;">
+                          <p>Dichos productos tiene que venir con su sello y firma del Doctor de Correspondiente Clínica o Hospital donde usted fue Examinado y su receta fue Recomendada</p>
+                       </section>
+                    </article>
+                    <article class="Elemento">
+                       <section style="width: 100%; height: 50px; padding: 0; margin-bottom: 12px; display: flex; flex-flow: row wrap; justify-content: center; align-content: center;">
+                        <h3>Consultas de Medicamentos</h3>
+                       </section>
+                       <section style="width: 100%; height: 213px; padding-top: 1rem;">
+                        <p>Cualquier tipo de Medicamento a Consultar por el Cliente o Paciente sera investigado y mostrado al Consumidor dicha investigación para que este anunciado e informado del Medicamento que Compra</p>
+                    </section>
+                    </article>
+                    <article class="Elemento">
+                       <section style="width: 100%; height: 50px; padding: 0; margin-bottom: 12px; display: flex; flex-flow: row wrap; justify-content: center; align-content: center;">
+                          <h3>Productos con Receta</h3>
+                       </section>
+                       <section style="width: 100%; height: 213px; padding-top: 1rem;">
+                          <p>Clínica o Hospital donde usted fue Examinado Dichos productos tiene que venir con su sello y firma del Doctor de Correspondiente Clínica o Hospital donde usted fue Examinado y su receta fue Recomendada Dichos productos tiene que venir con su sello</p>
+                       </section>
+                    </article>
+                    <article class="Elemento">
+                       <section style="width: 100%; height: 50px; padding: 0; margin-bottom: 12px; display: flex; flex-flow: row wrap; justify-content: center; align-content: center;">
+                          <h3>Productos con Receta</h3>
+                       </section>
+                       <section style="width: 100%; height: 213px; padding: 0;">
+                          <p>Clínica o Hospital donde usted fue Examinado Dichos productos tiene que venir con su sello y firma del Doctor de Correspondiente Clínica o Hospital donde usted fue Examinado y su receta fue Recomendada Dichos productos tiene que venir con su sello</p>
+                       </section>
+                    </article>
+                    <article class="Elemento">
+                       <section style="width: 100%; height: 50px; padding: 0; margin-bottom: 12px; display: flex; flex-flow: row wrap; justify-content: center; align-content: center;">
+                          <h3>Productos con Receta</h3>
+                       </section>
+                       <section style="width: 100%; height: 213px; padding: 0;">
+                          <p>Dichos productos tiene que venir con su sello y firma del Doctor de Correspondiente Clínica o Hospital donde usted fue Examinado y su receta fue Recomendada</p>
+                       </section>
+                    </article>
+                    <article class="Elemento">
+                       <section style="width: 100%; height: 50px; padding: 0; margin-bottom: 12px; display: flex; flex-flow: row wrap; justify-content: center; align-content: center;">
+                          <h3>Productos con Receta</h3>
+                       </section>
+                       <section style="width: 100%; height: 213px; padding: 0;">
+                          <p>Dichos productos tiene que venir con su sello y firma del Doctor de Correspondiente Clínica o Hospital donde usted fue Examinado y su receta fue Recomendada</p>
+                       </section>
+                    </article>
+                </main>
+
+        </div>
+
+        <!-- Contenedor -->
+
+        <div style="width: 100%; min-height: 550px;">
+            <div style="width: 100%; height: 120px; display: flex; flex-flow: row nowrap; justify-content: space-around; align-items: center;">
+                <span style="width: 29%; height: 2px; background-color: #000000;"></span>
+                <header style=" width: 420px; height: auto; margin: 2px 15px; display: flex; flex-direction: row; justify-content: center; align-items: center; ">
+                    <h2 style="text-align: center; font-size: 34px; font-family: Poppins, serif; font-weight: 400; font-style: normal;">Servicios que ofrecemos</h2>
+                </header>
+                <span style="width: 29%; height: 2px; background-color: #000000;"></span>
+            </div>
+            <div style="width: 100%; height: 70px; display: flex; justify-content: center;">
+                <section style="width: 85%; padding: 0 1rem;">
+                    <p style="padding: 4px; margin: 0; text-align:left; font-size: 17px; font-family: Poppins, serif; font-weight: 400; font-style: normal;">Nos enfocamos en ofrecer soluciones rápidas y efectivas para todos las personas que necesiten nuesta atencion medica. Con años de experiencia en el rubro, brindamos una amplia variedad de <span style="color: #0004ff; font-weight: 600;">servicios de calidad</span>:</p>
+                </section>
+            </div>
+            <div style="width: 100%; height: 580px; display: flex; flex-direction: row; justify-content: space-around; align-items: center;">
+
+                <article class="servicio">
+                    <section style="width: 100%; height: 70px; background-color: #009e1c; border-radius: 13px 13px 0 0; display: flex; justify-content: center; align-items: center;"><img width="62" height="62" src="https://img.icons8.com/parakeet-line/62/caduceus.png" alt="caduceus"/></section>
+                    <section style="width: 100%; height: 50px; padding: 0; margin-bottom: 0; color: white; display: flex; flex-flow: row wrap; justify-content: center; align-content: center;">
+                       <h2 class="caption">Productos con Receta</h2>
+                    </section>
+                      
+                    <section style="width: 100%; height: 250px; padding: 0; margin: 0; display: flex; justify-content: start;">
+                       <p>Clínica o Hospital dos productos tiene que venir con su sello y firma del Doctor de Correspondiente Clínica o Hospital donde usted fue Examinado y su receta fue Recomendada Dichos productos tiene que venir con su sello
+                        Clínica o Hoe que venir con soductos tiene que venir con su sello  que venir con su sello
+                       </p>
+                    </section>
+                    <section style="width: 100%;"><button type="submit" id="boton" href="#">Agendar Cita</button> </section>
+                </article>
+                
+                <article class="servicio">
+                    <section style="width: 100%; height: 70px; background-color: #009e1c; border-radius: 13px 13px 0 0; display: flex; justify-content: center; align-items: center;"><img width="62" height="62" src="https://img.icons8.com/external-smashingstocks-detailed-outline-smashing-stocks/62/external-Pharmacy-healthcare-and-medical-smashingstocks-detailed-outline-smashing-stocks.png" alt="external-Pharmacy-healthcare-and-medical-smashingstocks-detailed-outline-smashing-stocks"/></section>
+                    <section style="width: 100%; height: 50px; padding: 0; margin-bottom: 0; color: white; display: flex; flex-flow: row wrap; justify-content: center; align-content: center;">
+                       <h2 class="caption">Productos con Receta</h2>
+                    </section>
+                      
+                    <section style="width: 100%; height: 250px; padding: 0; margin: 0; display: flex; justify-content: start;">
+                       <p>Clínica o Hospital dos productos tiene que venir con su sello y firma del Doctor de Correspondiente Clínica o Hospital donde usted fue Examinado y su receta fue Recomendada Dichos productos tiene que venir con su sello
+                        Clínica o Hoe que venir con soductos tiene que venir con su sello  que venir con su sello
+                       </p>
+                    </section>
+                    <section style="width: 100%;"><button type="submit" id="boton" href="#">Agendar Cita</button> </section>
+                </article>
+
+                <article class="servicio">
+                    <section style="width: 100%; height: 70px; background-color: #009e1c; border-radius: 13px 13px 0 0; display: flex; justify-content: center; align-items: center;"><img width="62" height="62" src="https://img.icons8.com/ios/62/ambulance--v1.png" alt="ambulance--v1"/></section>
+                    <section style="width: 100%; height: 50px; padding: 0; margin-bottom: 0; color: white; display: flex; flex-flow: row wrap; justify-content: center; align-content: center;">
+                       <h2 class="caption">Productos con Receta</h2>
+                    </section>
+                      
+                    <section style="width: 100%; height: 250px; padding: 0; margin: 0; display: flex; justify-content: start;">
+                       <p>Clínica o Hospital dos productos tiene que venir con su sello y firma del Doctor de Correspondiente Clínica o Hospital donde usted fue Examinado y su receta fue Recomendada Dichos productos tiene que venir con su sello
+                        Clínica o Hoe que venir con soductos tiene que venir con su sello  que venir con su sello
+                       </p>
+                    </section>
+                    <section style="width: 100%;"><button type="submit" id="boton" href="#">Agendar Cita</button> </section>
+                </article>
+            </div>
+            <div style="width: 100%; height: 90px; display: flex; justify-content: center;">
+                <section style="width: 85%; padding: 0 1rem;">
+                    <p style="padding: 15px 4px; margin: 0; text-align:left; font-size: 17px; font-family: Poppins, serif; font-weight: 400; font-style: normal;"><span style="color: #0004ff; font-weight: 600;">Todos nuestros servicios</span> están diseñados para ofrecerte la mayor seguridad y tranquilidad. Si necesitás un paramedico 24 hs o una consulta rápida para ti y tu familia, cuenta con nosotros.</p>
+                </section>
+            </div>
+
+        </div>
+        
+        <!--  Tercer section -->
+
+        <div style="width: 100%; min-height: 500px; background-color: #ffffff;">
+            <div style="width: 100%; height: 120px; display: flex; flex-flow: row nowrap; justify-content: space-evenly; align-items: center;">
+                <span style="width: 24%; height: 2px; background-color: #000000;"></span>
+                <header style=" width: 550px; height: auto; margin: 2px 15px; display: flex; flex-direction: row; justify-content: space-around; align-items: center; ">
+                    <h2 style="text-align: center; font-size: 34px; font-family: Poppins, serif; font-weight: 400; font-style: normal;">Clinica Zambrano a tu Servicio</h2>
+                </header>
+                <span style="width: 24%; height: 2px; background-color: #000000;"></span>
+            </div>
+            <div style="width: 100%; min-height: 500px; padding: 0;">
+                <div style="width: 96%; margin: 28px auto 0 auto; display: grid; grid-auto-rows: minmax(130px, auto); grid-template-columns: repeat(2, 1fr); gap: 1rem;">
+                    <section style="width: 88%; margin: auto; padding: 0 10px; grid-row: 1/2; grid-column: 2/3;">
+                        <p class="parrafo-grid">Apenas nos llamás, un paramedico profesional se dirige hacia vos y resuelve el problema</p>
+                        <p class="parrafo-grid">¿Qué incluye nuestro servicio de urgencias?</p>
+                        <ul>
+                            <li class="parrafo-grid"><h2 style="font-weight: 500;">Cirugía según su finalidad</h2>
+                                <p>
+                                Curativa: Corrige el problema, normalmente retirando la zona afectada.
+                                <br> Paliativa: Disminuye los síntomas de una enfermedad o problema, pero no lo resuelve.
+                                <br> Estética: Mejora el aspecto del paciente, pero no tiene una base médica o funcional.</p>
+                            </li>
+                            <li class="parrafo-grid"><h2 style="font-weight: 500;">Cirugía según su localización</h2> <p>Externa: Trata la zona de la piel y los tejidos adyacentes
+                                Interna: Interviene profundamente en un órgano, aparato o sistema del organismo.</p></li>
+                            <li class="parrafo-grid"><h2 style="font-weight: 500;">Cirugía según su extensión</h2> <p>Menor: El riesgo no es vital para la vida del paciente
+                                Mayor: Implica intervenciones que requieren de la hospitalización del paciente por su mayor riesgo vital.</p></li>
+                        </ul>
+                    </section>
+                    <section class="imagen-grid">
+                         <div> <!-- Contenido flotante con posicion absulota --> </div>
+                    </section>
+                    <section style="width: 100%; grid-row: 2/3; grid-column: 1/3; display: flex; justify-content: center; align-items: center;">
+                        <article style="width: 60%; height: 122px; display: block; justify-items: center; align-content: center;">
+                            <div style="width: 100%; height: 60px; display: flex; justify-content: center; align-items: center;">
+                                <button id="boton-solicitar">
+                                    <img width="34" height="34" src="https://img.icons8.com/color/34/whatsapp--v1.png" alt="whatsapp--v1"/>
+                                    <p style="margin-left: 7px;">Solicitar servicio urgente</p>
+                                </button>
+                            </div>
+                            <div style="width: 100%; height: 60px; display: flex; justify-content: center; align-items: center;"><p class="parrafo-grid-btn">La información que nos brindes es confidencial y privada</p></div>
+                            
+                        </article>
+                    </section>
+                </div>
+            </div>
+
+        </div>
+
+
+         <!--  Cuarta section -->
+
+        <div style="width: 100%; min-height: 500px; background-color: #ffffff;">
+            <div style="width: 100%; height: 120px; display: flex; flex-flow: row nowrap; justify-content: space-evenly; align-items: center;">
+                <span style="width: 24%; height: 2px; background-color: #000000;"></span>
+                <header style=" width: 550px; height: auto; margin: 2px 15px; display: flex; flex-direction: row; justify-content: space-around; align-items: center; ">
+                    <h2 style="text-align: center; font-size: 34px; font-family: Poppins, serif; font-weight: 400; font-style: normal;">¿Por qué deberías elegirnos?</h2>
+                </header>
+                <span style="width: 24%; height: 2px; background-color: #000000;"></span>
+            </div>
+            <div style="width: 100%; height: 40px; display: flex; justify-content: center;">
+                <section style="width: 85%; padding: 0 1rem;">
+                    <p style="padding: 4px; margin: 0; text-align:center; font-size: 17px; font-family: Poppins, serif; font-weight: 400; font-style: normal;">Estas son algunas de las razones por las cuales somos la mejor opción para obtar por nuestro servicio:</p>
+                </section>
+            </div>
+            <div id="banner2">
+                <main id="elergirnos">
+                    <article class="elemento-banner2">
+
+                        <section style="width: 95%; height: 35%; display: flex; justify-content: center; align-items: center;">
+                            <img width="92" height="92" src="https://img.icons8.com/avantgarde/92/last-24-hours.png" alt="last-24-hours"/>
+                        </section>
+                        <section style="width: 95%; height: 20%; display: flex; justify-content: center; align-items: center;">
+                          <h2 class="parrafo-grid-h3" style="text-align: center;">Disponibilidad 24 horas</h2>
+                        </section>
+                        <section style="width: 95%; height: 35%; display: flex; justify-content: center; align-items: center;">
+                          <p class="parrafo-grid" style="text-align: center;">Siempre estamos a tu disposición, incluso en horarios fuera de lo común.</p>
+                        </section>
+
+                    </article>
+
+                    <article class="elemento-banner2">
+
+                        <section style="width: 95%; height: 35%; display: flex; justify-content: center; align-items: center;">
+                            <img width="82" height="82" src="https://img.icons8.com/external-flaticons-flat-flat-icons/82/external-office-team-building-flaticons-flat-flat-icons.png" alt="external-office-team-building-flaticons-flat-flat-icons"/>
+                        </section>
+                        <section style="width: 95%; height: 20%; display: flex; justify-content: center; align-items: center;">
+                          <h2 class="parrafo-grid-h3" style="text-align: center;">Profesionales capacitados</h2>
+                        </section>
+                        <section style="width: 95%; height: 35%; display: flex; justify-content: center; align-items: center;">
+                          <p class="parrafo-grid" style="text-align: center;">Nuestro equipo cuenta con años de experiencia y se mantiene siempre al día con las últimas tecnologías en Medicina</p>
+                        </section>
+
+                    </article>
+
+                    <article class="elemento-banner2">
+
+                        <section style="width: 95%; height: 35%; display: flex; justify-content: center; align-items: center;">
+                            <img width="90" height="90" src="https://img.icons8.com/papercut/90/stopwatch.png" alt="stopwatch"/>
+                        </section>
+                        <section style="width: 95%; height: 20%; display: flex; justify-content: center; align-items: center;">
+                          <h2 class="parrafo-grid-h3" style="text-align: center;">Atención rápida y eficiente</h2>
+                        </section>
+                        <section style="width: 95%; height: 35%; display: flex; justify-content: center; align-items: center;">
+                          <p class="parrafo-grid" style="text-align: center;">Llegamos enseguida y resolvemos tu problema en cuestión de minutos.</p>
+                        </section>
+
+                    </article>
+
+                    <article class="elemento-banner2">
+
+                        <section style="width: 95%; height: 35%; display: flex; justify-content: center; align-items: center;">
+                            <img width="82" height="82" src="https://img.icons8.com/external-goofy-flat-kerismaker/82/external-Dental-Chair-dentistry-goofy-flat-kerismaker.png" alt="external-Dental-Chair-dentistry-goofy-flat-kerismaker"/>
+                        </section>
+                        <section style="width: 95%; height: 20%; display: flex; justify-content: center; align-items: center;">
+                          <h2 class="parrafo-grid-h3" style="text-align: center;">Herramientas de alta tecnología</h2>
+                        </section>
+                        <section style="width: 95%; height: 35%; display: flex; justify-content: center; align-items: center;">
+                          <p class="parrafo-grid" style="text-align: center;">Usamos herramientas de última generación para ofrecerte servicios sin daño y con la mayor precisión.</p>
+                        </section>
+
+                    </article>
+
+                    <article class="elemento-banner2">
+
+                        <section style="width: 95%; height: 35%; display: flex; justify-content: center; align-items: center;">
+                            <img width="86" height="86" src="https://img.icons8.com/color/86/cash-in-hand.png" alt="cash-in-hand"/>
+                        </section>
+                        <section style="width: 95%; height: 20%; display: flex; justify-content: center; align-items: center;">
+                          <h2 class="parrafo-grid-h3" style="text-align: center;">Precios justos</h2>
+                        </section>
+                        <section style="width: 95%; height: 35%; display: flex; justify-content: center; align-items: center;">
+                          <p class="parrafo-grid" style="text-align: center;">Ofrecemos una excelente relación calidad-precio para que tengas el mejor servicio sin gastar de más.</p>
+                        </section>
+
+                    </article> 
+                </main>
+            </div>
+            <section style="width: 100%; grid-row: 2/3; grid-column: 1/3; display: flex; justify-content: center; align-items: center;">
+                <article style="width: 60%; height: 122px; display: block; justify-items: center; align-content: center;">
+                    <div style="width: 100%; height: 60px; display: flex; justify-content: center; align-items: center;">
+                        <button id="boton-solicitar">
+                            <img width="34" height="34" src="https://img.icons8.com/color/34/whatsapp--v1.png" alt="whatsapp--v1"/>
+                            <p style="margin-left: 7px;">Solicitar servicio ahora</p>
+                        </button>
+                    </div>
+                    <div style="width: 100%; height: 60px; display: flex; justify-content: center; align-items: center;"><p class="parrafo-grid-btn">La información que nos brindes es confidencial y privada</p></div>
+                </article>
+            </section>
+        </div>
+
+
+        <!-- Quinta section -->
+
+        <div id="Consultas-frecuentes" style="width: 100%; min-height: 700px; background-color: #ffffff;">
+            <div style="width: 100%; height: 120px; display: flex; flex-flow: row nowrap; justify-content: space-evenly; align-items: center;">
+                <span style="width: 24%; height: 2px; background-color: #000000;"></span>
+                <header style=" width: 550px; height: auto; margin: 2px 15px; display: flex; flex-direction: row; justify-content: space-around; align-items: center; ">
+                    <h2 style="text-align: center; font-size: 34px; font-family: Poppins, serif; font-weight: 400; font-style: normal;">Consultas Frecuentes</h2>
+                </header>
+                <span style="width: 24%; height: 2px; background-color: #000000;"></span>
+            </div>
+            <div style="width: 100%; min-height: 500px; margin-bottom: 120px; display: flex; flex-direction: row; justify-content: space-around;">
+                <section>
+
+                    <article class="container-preguntas">
+                        <p class="preguntas-frecuentes">¿Cuanto cuesta un servicio de medicina?</p>
+                        <i><img width="26" height="26" src="https://img.icons8.com/metro/26/expand-arrow.png" alt="expand-arrow"/></i>
+                    </article>
+
+                    <article class="container-preguntas">
+                        <p class="preguntas-frecuentes">¿Cuánto tiempo tarda en llegar una Ambulacia?</p>
+                        <i><img width="26" height="26" src="https://img.icons8.com/metro/26/expand-arrow.png" alt="expand-arrow"/></i>
+                    </article>
+
+                    <article class="container-preguntas">
+                        <p class="preguntas-frecuentes">¿Ofrecen servicios las 24 horas, incluso fines de semana y feriados?</p>
+                        <i><img width="26" height="26" src="https://img.icons8.com/metro/26/expand-arrow.png" alt="expand-arrow"/></i>
+                    </article>
+
+                    <article class="container-preguntas">
+                        <p class="preguntas-frecuentes">¿Qué servicios de medicos o paramedicos están disponibles de urgencia?</p>
+                        <i><img width="26" height="26" src="https://img.icons8.com/metro/26/expand-arrow.png" alt="expand-arrow"/></i>
+                    </article>
+
+                    <article class="container-preguntas">
+                        <p class="preguntas-frecuentes">¿Es posible pagar con tarjeta de crédito o débito?</p>
+                        <i><img width="26" height="26" src="https://img.icons8.com/metro/26/expand-arrow.png" alt="expand-arrow"/></i>
+                    </article>
+
+                    <article class="container-preguntas">
+                        <p class="preguntas-frecuentes">¿Atienden en todas las zonas de la ciudad?</p>
+                        <i><img width="26" height="26" src="https://img.icons8.com/metro/26/expand-arrow.png" alt="expand-arrow"/></i>
+                    </article>
+
+                    <article class="container-preguntas">
+                        <p class="preguntas-frecuentes">¿Cuanto cuestión un servicio de medicina?</p>
+                        <i><img width="26" height="26" src="https://img.icons8.com/metro/26/expand-arrow.png" alt="expand-arrow"/></i>
+                    </article>
+
+                </section>
+                <section style="width: 380px; height: auto; display: flex; flex-direction: column; justify-content: center;">
+                    <h2 style="padding: 0; margin: 0; font-family: Poppins, serif; text-align: center; font-weight: 500; font-size: 28px;">¿Otras consultas?</h2>
+                    <p style="font-family: Poppins, serif; text-align: center; font-size: 18px">Si tu consulta no aparece aquí, <br><span style="color:#0004ff; font-weight: 600;">escribenos directamente para que <br> podamos ayudarte.</span></p>
+                </section>
+            </div>
+
+        </div>
+
+
+
+
+
+
+
+    <!-- <script>
+        const menu = document.getElementById('menu');
+        const navegacion = document.getElementById('navegacion');
+        menu.addEventListener('click', () => {
+            menu.classList.toggle('fa-times');
+            navegacion.classList.toggle("navegacion-toggle");
+        })
+
+    </script> -->
+         <!-- Profesionales -->
+        <!-- <div id="container-info">
+            <div id="contacto1">
+                <h4 class="contact">Nuestro personal de Profesionales</h4>
+                <section class="profesionales">
+                    <blockquote id="person">Doctor Alberto Zuniga</blockquote>
+                    <blockquote id="person">Doctora Sofía Mendoza</blockquote>
+                    <blockquote id="person">Farmacéutica Alicia Cruz</blockquote>
+                    <blockquote id="person">Psicóloga Jennyfer Cruz</blockquote>
+                </section>
+            </div> -->
+
+         <!-- información de contacto -->
+            <!-- <div id="contacto2">
+                <h4 class="contact">Contáctenos en las Redes Sociales</h4>
+                <ul id="redes">
+                   <div id="rr">
+                    <span id="red1" class="fas">Facebook</span>
+                 <li id="facebook"><p style="font-size: 78%">Farmacia DoctMedical</p></li>
+                   </div>
+                   <div id="rr">
+                    <span id="red2" class="fas">Instagram</span>
+                 <li id="instagram"><p style="font-size: 78%">Farmacia504_DoctMedical</p></li>
+                 </div>
+                   <div id="rr">
+                    <span id="red3" class="fas">Twitter</span>
+                 <li id="twitter"><p style="font-size: 78%">Farmacia DoctMedical</p></li>
+                 </div>
+                    <div id="rr">
+                    <span id="red4" class="fas">WhatsApp</span>
+                 <li id="whatsapp"><p style="font-size: 78%">(+504) 9846-2913</p></li>
+                    </div>
+                </ul>
+
+            </div>
+        </div> -->
+        <script src="pestania.js"></script>
+    <script>
+        const red1 = document.getElementById('red1');
+        const facebook= document.getElementById('facebook');
+        const facebook2= document.getElementById('facebook2');
+        const red2 = document.getElementById('red2');
+        const instagram = document.getElementById('instagram');
+        const instagram2 = document.getElementById('instagram2');
+        const red3 = document.getElementById('red3');
+        const twitter = document.getElementById('twitter');
+        const red4 = document.getElementById('red4');
+        const whatsapp = document.getElementById('whatsapp');
+/* Red de Facebook */
+        red1.addEventListener('click', () => {
+         facebook.classList.toggle("facebook-toggle");
+         })
+/* Red de Instagram */
+         red2.addEventListener('click', () => {
+         instagram.classList.toggle("instagram");
+         })
+/* Red de Twitter */
+         red3.addEventListener('click', () => {
+         twitter.classList.toggle("twitter-toggle");
+         })
+/* Red de WhatsApp */
+red4.addEventListener('click', () => {
+         whatsapp.classList.toggle("whatsapp-toggle");
+         })
+
+     </script>
+
+
+
+<!-- Pie de Página Extendido -->
+        <footer id="footer">
+           <div class="pie-depagina"">
+               <section class="sobre-nosotros"">
+                    <article>
+                       <h2 class="titulos-footer">Somos Parte de</h2>
+                       <p>Una organizacion muy preparada para atender tus necesidades medicas,
+                        contamos con buen material medico, mejores herramientas y buenos profesionales listos para atenderte
+                        catalogados como una de las sedes principales en el pais con mayor numero de vidas salvadas y transformadas</p>
+                    </article>
+                </section>
+
+                <section class="navegacion"">
+                   <h2 class="titulos-footer">Menu de Navegacion</h2>
+                    <nav class="nav">
+                        <ul>
+                           <li><a href="#">Inicio</a></li>
+                           <li><a href="#">Proyectos</a></li>
+                           <li><a href="#">Orientaciones</a></li>
+                           <li><a href="#">Recomendaciones</a></li>
+                           <li><a href="#">Contactos</a></li>
+                        </ul>
+                    </nav>
+                </section>
+
+                <section class="Contactenos">
+                    <aside>
+                        <h2 class="titulos-footer">Ubicados y Contactos</h2>
+                        <ul class="ubicacion-contacto">
+                           <li><span><i class="fa-solid fa-location-dot"></i></span><p>Barrio Centro, Zambrano, <br> (Francisco Morazan D.C)</p></li>
+                           <li><span><i class="fa-solid fa-phone"></i></span><p>+504 9434-2756 <br> +504 3232-0579</p></p></li>
+                           <li><span><i class="fa-solid fa-envelope"></i></span><p>clinicazambrano@vidas.com</p></li>
+                        </ul>
+                    </aside>
+                </section>
+            </div>
+            <footer class="pie">
+              <p> Copyright® Derechos Reservados 2023<br>Proyecto desarrollado y diseñado por Steven Lopez</p>
+            </footer>
+        </footer>
+
+    </body>
+
+
+</hmtl>
